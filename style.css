@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #87CEFA, #191970);
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 60vh;
+    background-color: #fff;
+    border: solid 2px #000;
+    border-top: solid 5px red;
+}
+
+.teclas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 35px;
+    width: 10%;
+    height: 100%;
+    border-right: solid .5px;
+    border-left: solid .5px;
+}
+
+.acidentes-C {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 15.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-D {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 23.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-F {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 39.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-G {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 47.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-A {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 55.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-C2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 71.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+.acidentes-D2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 37.5%;
+    left: 79.5%;
+    top: 20%;
+    background-color: #000;
+}
+
+
+.interior-C {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-D {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-F {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-G {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-A {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-C2 {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
+.interior-D2 {
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    border-bottom: solid .5px #fff;
+    border-right: solid .5px #fff;
+    border-left: solid .5px #fff;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #808080);
+}
+
