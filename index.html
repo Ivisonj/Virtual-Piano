@@ -5,43 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Piano</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style/style.css">
 </head>
 <body>
-    <main class="container" >
-        <div class="teclas" id="naturais">C</div>
-        <div class="teclas" id="naturais">D</div>
-        <div class="teclas" id="naturais">E</div>
-        <div class="teclas" id="naturais">F</div>
-        <div class="teclas" id="naturais">G</div>
-        <div class="teclas" id="naturais">A</div>
-        <div class="teclas" id="naturais">B</div>
-        <div class="teclas" id="naturais">C</div>
-        <div class="teclas" id="naturais">D</div>
-        <div class="teclas" id="naturais">E</div>
-    </main>
-        <div class="acidentes-C">
-            <div class="interior-C" id="sus"></div>
-        </div>
-        <div class="acidentes-D">
-            <div class="interior-D" id="sus"></div>
-        </div>
-        <div class="acidentes-F">
-            <div class="interior-F" id="sus"></div>
-        </div>
-        <div class="acidentes-G">
-            <div class="interior-G" id="sus"></div>
-        </div>
-        <div class="acidentes-A">
-            <div class="interior-A" id="sus"></div>
-        </div>
-        <div class="acidentes-C2">
-            <div class="interior-C2" id="sus"></div>
-        </div>
-        <div class="acidentes-D2">
-            <div class="interior-D2" id="sus"></div>
-        </div>
+    <div class="title">
+        <h1>VIRTUAL PIANO</h1>
+    </div>
+    <div class="container-piano">
+        <main class="container" >
+            <li>
+                <div class="w-key" data-note="C">C</div>
+                <div class="b-key black-C" data-note="C#">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="D">D</div>
+                <div class="b-key black-D" data-note="D#">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="E">E</div>
+            </li>
+            <li>
+                <div class="w-key" data-note="F">F</div>
+                <div class="b-key black-F" data-note="F#">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="G">G</div>
+                <div class="b-key black-G" data-note="G#">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="A">A</div>
+                <div class="b-key black-A" data-note="A#">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="B">B</div>
+            </li>
+            <li>
+                <div class="w-key" data-note="C">C</div>
+                <div class="b-key black-C2" data-note="C#2">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="D">D</div>
+                <div class="b-key black-D2" data-note="D#2">
+                    <div class="in-key"></div>
+                </div>
+            </li>
+            <li>
+                <div class="w-key" data-note="E">E</div>
+            </li>
+        </main>   
+    </div>
 
-    <script src="main.js"></script>
+    <script src="./src/main.js"></script>
 </body>
 </html>
