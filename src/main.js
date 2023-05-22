@@ -1,7 +1,6 @@
 //get all keys
 const keys = document.querySelectorAll('[data-key]')
 
-// console.log('Se liga...', keys)
 //play notes
 function playNote(event) {
 
@@ -9,10 +8,17 @@ function playNote(event) {
     console.log(audioKeyCode)
 
     //type or pressed key
+    const key = document.querySelector(`[data-key="${audioKeyCode}"]`)
 
     //if key exists
+    const cantFoundAnyKey = !key
+
+    if(cantFoundAnyKey) {
+        return
+    }
 
     //play audio
+    playAudio(audioKeyCode)    
 }
 
 function getKeyCode(event) {
@@ -27,6 +33,12 @@ function getKeyCode(event) {
     }
 
     return keyCode
+}
+
+function playAudio (audioKeyCode) {
+    const audio = document.querySelector(`audio[data-key="${audioKeyCode}"]`)
+    audio.ariaCurrent = 0
+    audio.play()
 }
 
 //click with mouse
